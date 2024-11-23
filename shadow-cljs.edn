@@ -1,0 +1,7 @@
+;; shadow-cljs configuration
+{:deps true
+
+ :builds
+ {:storybook
+  {:target :esm-files
+   :output-dir "sb/stories/cljs"}}}
